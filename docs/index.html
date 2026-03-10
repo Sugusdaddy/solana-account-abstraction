@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Account Abstraction for Solana - Session keys, gasless transactions, social recovery, and smart wallets.">
+    <title>Solana Account Abstraction | Next-Gen Wallet Infrastructure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-bg { background: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #ec4899 100%); }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(99, 102, 241, 0.2); }
+    </style>
+</head>
+<body class="bg-slate-950 text-white">
+    <nav class="container mx-auto px-6 py-4">
+        <div class="flex justify-between items-center">
+            <span class="text-xl font-bold">🔑 Account Abstraction</span>
+            <a href="https://github.com/Sugusdaddy/solana-account-abstraction" class="hover:text-purple-400">GitHub</a>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-6 py-24 text-center">
+        <div class="inline-flex items-center gap-2 px-4 py-2 bg-purple-500/10 rounded-full text-purple-400 text-sm mb-8">
+            <span class="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></span>
+            The Future of Solana Wallets
+        </div>
+        <h1 class="text-5xl md:text-7xl font-bold mb-6">
+            Account<br><span class="gradient-bg bg-clip-text text-transparent">Abstraction</span>
+        </h1>
+        <p class="text-xl text-slate-400 max-w-2xl mx-auto mb-10">
+            Session keys for seamless dApp experiences. Gasless transactions for new users. Social recovery so you never lose access. Built for Solana.
+        </p>
+        <div class="flex flex-wrap gap-4 justify-center">
+            <a href="https://github.com/Sugusdaddy/solana-account-abstraction" class="gradient-bg px-8 py-4 rounded-xl font-semibold hover:opacity-90">
+                Start Building
+            </a>
+            <a href="#features" class="border border-slate-700 px-8 py-4 rounded-xl hover:border-purple-500">
+                Learn More
+            </a>
+        </div>
+    </div>
+
+    <div id="features" class="container mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold text-center mb-16">Core Features</h2>
+        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div class="card-hover bg-slate-900 p-8 rounded-2xl border border-slate-800 transition-all">
+                <div class="w-14 h-14 gradient-bg rounded-xl flex items-center justify-center text-2xl mb-6">🎮</div>
+                <h3 class="text-2xl font-bold mb-4">Session Keys</h3>
+                <p class="text-slate-400 mb-4">Create temporary keys with scoped permissions. Perfect for games, trading bots, and dApps that need frequent transactions.</p>
+                <ul class="text-sm text-slate-500 space-y-2">
+                    <li>✓ Time-limited access</li>
+                    <li>✓ Program whitelist</li>
+                    <li>✓ Spending limits</li>
+                </ul>
+            </div>
+            <div class="card-hover bg-slate-900 p-8 rounded-2xl border border-slate-800 transition-all">
+                <div class="w-14 h-14 gradient-bg rounded-xl flex items-center justify-center text-2xl mb-6">⛽</div>
+                <h3 class="text-2xl font-bold mb-4">Gasless Transactions</h3>
+                <p class="text-slate-400 mb-4">Onboard users without requiring SOL. Sponsors pay fees, users get seamless experience.</p>
+                <ul class="text-sm text-slate-500 space-y-2">
+                    <li>✓ Paymaster integration</li>
+                    <li>✓ Fee delegation</li>
+                    <li>✓ Sponsored onboarding</li>
+                </ul>
+            </div>
+            <div class="card-hover bg-slate-900 p-8 rounded-2xl border border-slate-800 transition-all">
+                <div class="w-14 h-14 gradient-bg rounded-xl flex items-center justify-center text-2xl mb-6">👥</div>
+                <h3 class="text-2xl font-bold mb-4">Social Recovery</h3>
+                <p class="text-slate-400 mb-4">Never lose your wallet again. Trusted guardians can help recover access with configurable thresholds.</p>
+                <ul class="text-sm text-slate-500 space-y-2">
+                    <li>✓ Guardian system</li>
+                    <li>✓ Weighted voting</li>
+                    <li>✓ Time-locked recovery</li>
+                </ul>
+            </div>
+            <div class="card-hover bg-slate-900 p-8 rounded-2xl border border-slate-800 transition-all">
+                <div class="w-14 h-14 gradient-bg rounded-xl flex items-center justify-center text-2xl mb-6">🔐</div>
+                <h3 class="text-2xl font-bold mb-4">Multi-Signature</h3>
+                <p class="text-slate-400 mb-4">Enterprise-grade security with customizable approval thresholds for high-value operations.</p>
+                <ul class="text-sm text-slate-500 space-y-2">
+                    <li>✓ M-of-N signing</li>
+                    <li>✓ Proposal system</li>
+                    <li>✓ Transaction batching</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-slate-900/50 py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">How It Works</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="flex items-start gap-4 mb-8">
+                    <div class="w-8 h-8 rounded-full gradient-bg flex items-center justify-center font-bold shrink-0">1</div>
+                    <div>
+                        <h4 class="font-semibold mb-2">Create Smart Wallet</h4>
+                        <p class="text-slate-400">Deploy a smart wallet account that wraps your EOA with additional security features.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4 mb-8">
+                    <div class="w-8 h-8 rounded-full gradient-bg flex items-center justify-center font-bold shrink-0">2</div>
+                    <div>
+                        <h4 class="font-semibold mb-2">Configure Permissions</h4>
+                        <p class="text-slate-400">Set up session keys, guardians, spending limits, and other security parameters.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="w-8 h-8 rounded-full gradient-bg flex items-center justify-center font-bold shrink-0">3</div>
+                    <div>
+                        <h4 class="font-semibold mb-2">Execute Transactions</h4>
+                        <p class="text-slate-400">Use session keys for dApps, sponsored transactions for gasless UX, or full signing for sensitive operations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold text-center mb-12">Quick Start</h2>
+        <div class="max-w-2xl mx-auto">
+            <pre class="bg-slate-900 p-6 rounded-xl overflow-x-auto"><code class="text-sm">npm install @sugusdaddy/solana-account-abstraction
+
+<span class="text-slate-500">// Create smart wallet</span>
+<span class="text-purple-400">const</span> wallet = <span class="text-purple-400">await</span> SmartWallet.create(connection, owner);
+
+<span class="text-slate-500">// Create session key for a game</span>
+<span class="text-purple-400">const</span> session = <span class="text-purple-400">await</span> wallet.createSession({
+  duration: 3600,
+  permissions: { programs: [GAME_PROGRAM] }
+});
+
+<span class="text-slate-500">// Setup social recovery</span>
+<span class="text-purple-400">await</span> wallet.setupRecovery({
+  guardians: [friend1, friend2, family],
+  threshold: 2,
+  timelockHours: 24
+});</code></pre>
+        </div>
+    </div>
+
+    <footer class="container mx-auto px-6 py-12 text-center text-slate-500">
+        <p>Built by <a href="https://github.com/Sugusdaddy" class="text-purple-400">@Sugusdaddy</a></p>
+        <p class="mt-2">MIT License • Open Source</p>
+    </footer>
+</body>
+</html>
